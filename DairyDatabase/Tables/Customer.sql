@@ -4,9 +4,10 @@
     [Firstname] VARCHAR(100) NOT NULL, 
     [Lastname] VARCHAR(100) NOT NULL, 
     [Email] VARCHAR(50) NOT NULL,
-    [Password] VARCHAR(20) NOT NULL,
+    [Password] VARCHAR(200) NOT NULL,
     [Contact] NCHAR(10) NULL, 
     [Address] NVARCHAR(MAX) NULL,
+    [RoleId] SMALLINT NOT NULL, 
     CONSTRAINT [PK_CustomerId] PRIMARY KEY CLUSTERED
     (
         [Id] ASC

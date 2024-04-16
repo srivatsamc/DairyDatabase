@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[usp_CustomerExists]
 	@email VARCHAR(50),
-	@password VARCHAR(20)
+	@password VARCHAR(200)
 /*
 <documentation>
 	<summary>Check the the customer exists or not<summary>

@@ -2,7 +2,7 @@
 	@firstName VARCHAR(100),
 	@lastName VARCHAR(100),
 	@email VARCHAR(50),
-	@password VARCHAR(20),
+	@password VARCHAR(200),
 	@contact NCHAR(10),
 	@address VARCHAR(MAX),
 	@customerId INT

@@ -2,9 +2,10 @@
 	@firstName VARCHAR(100),
 	@lastName VARCHAR(100),
 	@email VARCHAR(50),
-	@password VARCHAR(20),
+	@password VARCHAR(200),
 	@contact NCHAR(10),
 	@address VARCHAR(MAX),
+	@roleId SMALLINT,
 	@customerIdOut INT OUTPUT
 /*
 <documentation>
@@ -26,8 +27,8 @@ BEGIN TRANSACTION
 	BEGIN TRY
 			IF NOT EXISTS (SELECT 1 FROM Customer WHERE Email = @email AND Password = @password)
 				BEGIN
-					INSERT INTO Customer (Firstname, Lastname, Email, Password, Contact, Address)
-						VALUES (@firstName, @lastName, @email, @password, @contact, @address)
+					INSERT INTO Customer (Firstname, Lastname, Email, Password, Contact, Address, RoleId)
+						VALUES (@firstName, @lastName, @email, @password, @contact, @address, @roleId)
 
 					SET @customerIdOut = SCOPE_IDENTITY()
 
