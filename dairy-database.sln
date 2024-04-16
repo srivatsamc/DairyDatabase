@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DairyDatabase", "DairyDatabase\DairyDatabase.sqlproj", "{6A94E5B3-26E8-4CA9-92CA-65FCFF0BCB1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A94E5B3-26E8-4CA9-92CA-65FCFF0BCB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A94E5B3-26E8-4CA9-92CA-65FCFF0BCB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A94E5B3-26E8-4CA9-92CA-65FCFF0BCB1E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6A94E5B3-26E8-4CA9-92CA-65FCFF0BCB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A94E5B3-26E8-4CA9-92CA-65FCFF0BCB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A94E5B3-26E8-4CA9-92CA-65FCFF0BCB1E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D4030A1-64EB-4875-8103-8C32FEB5DDFD}
+	EndGlobalSection
+EndGlobal
