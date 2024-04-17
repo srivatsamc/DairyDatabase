@@ -1,11 +1,11 @@
 ﻿CREATE TABLE [dbo].[Customer]
 (
-	[Id] INT NOT NULL , 
+	[Id] INT IDENTITY(1,1) NOT NULL , 
     [Firstname] VARCHAR(100) NOT NULL, 
-    [Lastname] VARCHAR(100) NOT NULL, 
+    [Lastname] VARCHAR(100) NULL, 
     [Email] VARCHAR(50) NOT NULL,
     [Password] VARCHAR(200) NOT NULL,
-    [Contact] NCHAR(10) NULL, 
+    [Contact] NVARCHAR(10) NULL, 
     [Address] NVARCHAR(MAX) NULL,
     [RoleId] SMALLINT NOT NULL, 
     CONSTRAINT [PK_CustomerId] PRIMARY KEY CLUSTERED
